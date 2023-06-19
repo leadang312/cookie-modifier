@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.header("🍪 Cookie Modify")
-st.caption(" ")
+st.caption("Change the values of an existing csv file and download the new csv file.")
 
 # Uploading a csv file
 file = st.file_uploader("Upload file")
